@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="呆呆导航黑科技工具">
+    <meta name="keywords" content="呆呆导航黑科技工具">
+    <meta name="author" content="呆呆">
+    <link rel="shortcut icon" href="./img/fov.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/utlis.css">
+    <title>呆呆导航-工具库</title>
+</head>
+
+<body>
+    <div class="YF28">
+        <div class="YF28-header"><img src="./img/hkjgz.svg" alt="">
+            <div class="text">
+                <p>呆呆导航·工具库</p>
+                <p>提供各种网络查询工具和实用工具</p>
+            </div>
+        </div>
+        <div class="YF28-nav"><a href="./dd28.html">下载娱乐</a><a href="./index.html">返回首页</a></div>
+        <div class="YF28-list"></div>
+        <div class="footer-sj">
+            <div class="footer-sj-main">
+                <a href="https://t.me/DaiDaiSSS" title="telegrame"><img src="./img/tel.svg" alt="telegrame"></a>
+                <a href="https://t.me/DaiDaiSSS" title="x"><img src="./img/x.svg" alt="x"></a>
+                <a href="https://t.me/DaiDaiSSS" title="facebook"><img src="./img/fac.svg" alt="facebook"></a>
+                <a href="https://t.me/DaiDaiSSS" title="instagram"><img src="./img/ins.svg" alt="instagram"></a>
+            </div><span>© 2024 All Rights Reserved, Dai28.CC<sup>®</sup></span></div>
+    </div>
+</body>
+<script src="./js/Ty.js"></script>
+<script src="./js/data.js"></script>
+<script>
+    $.$Ren({
+        fat: '.YF28-list',
+        data: utils,
+        call: (item) => {
+            return (`<a href="${item.link}" class="item"  title="${item.title}"><div class="left"><p class="title">${item.title}</p><p class="info">${item.info}</p><div class="btn"><img src="./img/one.svg" ><span>点击进入</span><img src="./img/two.svg" ></div></div><img class="right" src="${item.imgUrl}"  alt="${item.title}" ></img></a>`)
+        }
+    })
+</script>
+
+</html>

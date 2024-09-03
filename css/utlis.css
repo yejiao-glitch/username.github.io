@@ -1,0 +1,229 @@
+html {
+    background-color: #2D3250;
+    font-family: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+}
+
+.YF28 {
+    padding: 0 2vw;
+}
+
+.YF28-header {
+    color: #FFF;
+    background-color: #424769;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    border-radius: 2vw;
+    margin-bottom: 1vw;
+    box-sizing: border-box;
+    padding: 3vw;
+    justify-content: center;
+}
+
+.YF28-header>img {
+    width: 17vw;
+    margin-right: 2vw;
+}
+
+.YF28-header>.text {
+    text-align: center;
+}
+
+.YF28-header>.text>p:first-child {
+    font-size: 5vw;
+    margin-bottom: 2vw;
+}
+
+.YF28-nav {
+    display: flex;
+    justify-content: center;
+    background-color: #424769;
+    padding: 3vw;
+    margin-bottom: 4.2vw;
+}
+
+.YF28-nav>a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 4.2vw;
+    padding: 2vw 5vw;
+    background-color: #F6B17A;
+    border-radius: 3vw;
+    font-weight: bold;
+}
+
+.YF28-nav>a:first-child {
+    margin-right: 5vw;
+    background-color: #7077A1;
+}
+
+p {
+    margin: 0;
+}
+
+.item {
+    color: #000;
+    background-color: #7077A1;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2vw;
+    padding: 3vw 5vw;
+    margin-bottom: 1vw;
+}
+
+.item>img {
+    width: 17vw;
+    border-radius: 4.2vw;
+}
+
+.item>.left {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3.5vw;
+}
+
+.item>.left>.title {
+    font-weight: bold;
+    font-size: 4.2vw;
+    margin-bottom: 1vw;
+}
+
+.item>.left>.info {
+    font-size: 3.5vw;
+    margin-bottom: .5vw;
+}
+
+.btn {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    color: #F6B17A;
+    font-size: 3.5vw;
+    font-weight: bold;
+    width: 23vw;
+    border-radius: 2vw;
+    padding: 1vw .5vw;
+}
+
+.btn>span {
+    margin-left: 1vw;
+}
+
+.btn>img {
+    width: 3.9vw;
+}
+
+.btn>img:nth-child(3) {
+    width: 3.5vw;
+}
+
+.footer-sj {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7vw;
+    padding-bottom: 2vw;
+    color: #FFF;
+    font-size: 3.5vw;
+}
+
+.footer-sj>.footer-sj-main {
+    width: 90%;
+    margin-bottom: 3vw;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-sj>.footer-sj-main>a {
+    margin: 0 1.5vw;
+}
+
+.footer-sj>.footer-sj-main>a>img {
+    width: 7.9vw;
+}
+
+@media screen and (min-width: 1200px) {
+    html {
+        background-color: #35394f;
+    }
+    .YF28 {
+        width: 35%;
+        margin: 0 auto;
+        background-color: #2D3250;
+    }
+    .YF28-header {
+        border-radius: .7vw;
+        margin-bottom: 1vw;
+        padding: 1.2vw;
+    }
+    .YF28-header>img {
+        width: 6vw;
+        margin-right: .5vw;
+    }
+    .YF28-nav {
+        padding: 1.2vw;
+        margin-bottom: 1.6vw;
+    }
+    .YF28-nav>a {
+        font-size: 1.6vw;
+        padding: .7vw 2vw;
+        border-radius: .5vw;
+    }
+    .YF28-nav>a:first-child {
+        margin-right: 2vw;
+    }
+    p {
+        margin: 0;
+    }
+    .item {
+        border-radius: .5vw;
+        padding: 1.2vw 2vw;
+        margin-bottom: 1vw;
+    }
+    .item>img {
+        width: 6vw;
+        border-radius: 1.6vw;
+    }
+    .item>.left {
+        margin-right: 1.4vw;
+    }
+    .item>.left>.title {
+        font-size: 1.6vw;
+        margin-bottom: 1vw;
+    }
+    .item>.left>.info {
+        font-size: 1.4vw;
+        margin-bottom: .5vw;
+    }
+    .btn {
+        font-size: 1.4vw;
+        width: 10vw;
+        border-radius: .5vw;
+        padding: 1vw .5vw;
+    }
+    .btn>span {
+        margin-left: 1vw;
+    }
+    .btn>img {
+        width: 1.5vw;
+    }
+    .btn>img:nth-child(3) {
+        width: 1.4vw;
+    }
+    .footer-sj {
+        font-size: 1.2vw;
+    }
+    .footer-sj>.footer-sj-main {
+        width: 35%;
+        margin-bottom: 1.2vw;
+    }
+    .footer-sj>.footer-sj-main>a {
+        margin: 0 1.5vw;
+    }
+    .footer-sj>.footer-sj-main>a>img {
+        width: 3.1vw;
+    }
+}
